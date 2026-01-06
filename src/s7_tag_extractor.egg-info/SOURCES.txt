@@ -1,0 +1,7 @@
+pyproject.toml
+src/s7_tag_extractor.egg-info/PKG-INFO
+src/s7_tag_extractor.egg-info/SOURCES.txt
+src/s7_tag_extractor.egg-info/dependency_links.txt
+src/s7_tag_extractor.egg-info/requires.txt
+src/s7_tag_extractor.egg-info/top_level.txt
+tests/test_fixtures.py

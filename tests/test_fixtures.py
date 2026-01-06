@@ -3,9 +3,8 @@
 This module tests that the required sample project files are available
 for integration testing of the S7 tag extractor.
 """
-from pathlib import Path
 
-import pytest
+from pathlib import Path
 
 
 FIXTURES_DIR = Path(__file__).parent / "fixtures"

@@ -5,3 +5,22 @@
 [2026-01-06T20:06:04+00:00] [opus] Executing phase: red
 [2026-01-06T20:06:04+00:00] [opus] RED phase for unit index: 0
 [2026-01-06T20:06:04+00:00] [opus] Running Claude with --model opus
+The failing test is written and committed.
+
+## Summary
+
+**Test written:** `tests/test_fixtures.py::TestSampleProjectFixtures::test_symlist_dbf_exists_in_sample_project`
+
+**What it tests:** Verifies that the sample Step 7 project contains `SYMLIST.DBF` at the expected path (`tests/fixtures/sample_project/YDBs/Snap7/SYMLIST.DBF`)
+
+**Expected failure:**
+```
+AssertionError: SYMLIST.DBF not found at /workspace/tests/fixtures/sample_project/YDBs/Snap7/SYMLIST.DBF. 
+Download sample project from: https://github.com/SCADACS/snap7/tree/master/examples/Step%207/Snap7
+```
+
+The test fails because the sample project hasn't been downloaded yet. The GREEN phase will need to download the snap7 sample Step 7 project and place the files in the correct location.
+
+<STOP_SIGNAL>TEST_FAILS_AS_EXPECTED</STOP_SIGNAL>
+[2026-01-06T20:07:15+00:00] [opus] Transitioned to GREEN phase, activating Haiku
+[2026-01-06T20:07:18+00:00] [opus] Waiting for activation...
