@@ -1,0 +1,6 @@
+{
+  "name": "s7-tag-extractor",
+  "language": "python",
+  "description": "Extract tags from Siemens Step 7 projects for OSI Pi and Kepware",
+  "private": false
+}
