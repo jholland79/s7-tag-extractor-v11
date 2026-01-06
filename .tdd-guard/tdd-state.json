@@ -1,0 +1,11 @@
+{
+  "phase": "red",
+  "active_agent": "opus",
+  "current_unit": null,
+  "unit_index": 0,
+  "haiku_attempts": 0,
+  "refactor_attempts": 0,
+  "status": "running",
+  "started_at": 1767729963.999964,
+  "updated_at": 1767729964.100589
+}
